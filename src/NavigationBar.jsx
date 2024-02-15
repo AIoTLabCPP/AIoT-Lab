@@ -33,7 +33,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="fixed" style={{ top: 0, width: '100%'}}> 
+    <AppBar position="fixed" style={{ top: 0, width: '100%', boxShadow: '0px 8px 4px rgba(0.5, 0.5, 0.5, 0.4)'}}> 
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <button style={{ border: 'none', background: 'none', cursor: 'pointer', width: '130px'}}>
