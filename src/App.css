@@ -57,7 +57,7 @@
 .main_title {
   width: 100%; /* Set the width of the textarea */
   height: 100px; /* Set the height of the textarea */
-  font-size: 80px; /* Set the font size */
+  font-size: 15vh; /* Set the font size */
   border-radius: 5px; /* Add border radius for rounded corners */
   resize: vertical; /* Allow vertical resizing */
   z-index: 100;
@@ -73,7 +73,7 @@
 .main_subtext {
   width: 100%; /* Set the width of the textarea */
   height: 100px; /* Set the height of the textarea */
-  font-size: 35px; /* Set the font size */
+  font-size: 6vh; /* Set the font size */
   border-radius: 5px; /* Add border radius for rounded corners */
   resize: vertical; /* Allow vertical resizing */
   z-index: 100;
