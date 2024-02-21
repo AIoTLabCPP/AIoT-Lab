@@ -9,7 +9,15 @@ function App() {
   return (
     <>
       <ResponsiveAppBar /> {/* Include the ResponsiveAppBar component here */}
-      <div className='image'></div>
+      <div className="main-content">
+        <div className='image'></div>
+        <div className='main_title'>
+          AIOT LAB
+        </div>
+        <div className='main_subtext'>
+          Looking forward to a better future on the road. 
+        </div>
+      </div>
       <Container 
         maxWidth="lg"
         style={{
