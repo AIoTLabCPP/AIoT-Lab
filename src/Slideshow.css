@@ -1,0 +1,17 @@
+.slideshow-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Ensure images maintain aspect ratio */
+  }
+  
+  .image_slideshow {
+    padding-top: 20px;
+    width: 60vw; /* Resize images to fill their container */
+    max-height: 70vh;
+    background-clip: content-box;
+    background-size: contain;
+    object-fit: cover;
+  }
+  
+  /* Add any additional styling as needed */
+  
