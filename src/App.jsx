@@ -15,9 +15,6 @@ function App() {
         if (entry.isIntersecting) {
           entry.target.classList.add('show');
         }
-        else {
-          entry.target.classList.remove('show');
-        }
       });
     });
 
@@ -51,6 +48,9 @@ function App() {
         </div>
         <div className='slideshow'>
           <Slideshow images={images} />
+        </div>
+        <div className='sponsors'>
+          SPONSORS
         </div>
       </div>
       <Container

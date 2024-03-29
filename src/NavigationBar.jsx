@@ -12,6 +12,11 @@ import MenuItem from '@mui/material/MenuItem';
 import aiotlogo from './assets/AIOT_logo.png';
 
 const pages = ['Outcomes', 'Team', 'News'];
+const pageLinks = [
+  '/AIoT-Lab/src/outcomes.html',
+  '/AIoT-Lab/src/team.html',
+  '/AIoT-Lab/src/news.html'
+]; 
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -112,11 +117,13 @@ function ResponsiveAppBar() {
             LOGO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                component="a" // Use anchor tag
+                href={pageLinks[index]} // Specify href attribute
+                style={{ my: 2, color: 'white', display: 'block', textDecoration: 'none' }}
+                onClick={handleCloseNavMenu} // Close menu when button is clicked
               >
                 {page}
               </Button>

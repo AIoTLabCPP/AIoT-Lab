@@ -12,15 +12,17 @@ const Slideshow = ({ images }) => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
+  const hiddenElements = document.querySelectorAll('.hidden');
+
   return (
-    <div className="slideshow-container">
+    <div className="slideshow-container hidden">
       {/* Image */}
       {images.map((image, index) => (
         <div
           className={index === currentIndex ? 'slide active' : 'slide'}
           key={index}
         >
-          <img src={image} alt={`Slide ${index}`} height="" className="image_slideshow" />
+          <img src={image} alt={`Slide ${index}`} height="" className="image_slideshow " />
         </div>
       ))}
       {/* Previous Button */}
