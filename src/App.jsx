@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import ResponsiveAppBar from './NavigationBar';
 import Slideshow from './Slideshow'; // Import the Slideshow component
-import Container from '@mui/material/Container';
 import team_photo from './assets/team_photo.jpg';
 
 function App() {
@@ -28,7 +27,7 @@ function App() {
 
   return (
     <>
-      <ResponsiveAppBar /> {/* Include the ResponsiveAppBar component here */}
+      <ResponsiveAppBar /> 
       <div className="main-content">
         <div className='image'></div>
         <div className='main_title fadein fadein-visible'>
@@ -53,13 +52,6 @@ function App() {
           SPONSORS
         </div>
       </div>
-      <Container
-        maxWidth="lg"
-        style={{
-
-        }}
-      >
-      </Container>
     </>
   );
 }
