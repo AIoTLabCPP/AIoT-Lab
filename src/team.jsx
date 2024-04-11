@@ -62,7 +62,8 @@ function Team() {
                     DONKEY CAR TEAM
                 </div>
                 <div className='team_description'>
-                    Donkey car team description
+                    To develop an accurate and efficient autonomous driving software that utilizes the latest breakthroughs in <br /> 
+                    machine learning and edge computing
                 </div>
                 <div className='subtitle' style={{
                     paddingTop: '4vh'
