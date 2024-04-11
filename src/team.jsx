@@ -7,6 +7,9 @@ function Team() {
     return (
         <>
             <ResponsiveAppBar /> 
+            {/* 
+                AGILE CAR TEAM
+            */}
             <div className='section' style= {{
                 height: '65vh',
                 backgroundColor: '#324039'
@@ -54,8 +57,12 @@ function Team() {
                 </div>
             </div>
 
+
+            {/* 
+                DONKEY CAR TEAM
+            */}
             <div className='section' style= {{
-                height: '140vh',
+                height: '130vh',
                 backgroundColor: '#667A75'
             }}>   
                 <div className='section_title'>
@@ -73,11 +80,37 @@ function Team() {
                 <div className='profile_image' style={{ 
                     backgroundImage: `url(./assets/sanna_alex.jpg)`, 
                     marginTop: '11vh',
-                    left: '24.5vw'
+                    left: '35vw'
                 }}> </div>
                 <div className='profile_image' style={{ 
                     backgroundImage: `url(./assets/michael.jpg)`, 
                     marginTop: '11vh',
+                    left: '55vw',
+                }}> </div>
+            
+                <div className='information' style={{
+                    marginTop: '41vh',
+                    left: '-19vw'
+                }}>
+                    <strong>Alex Sanna</strong> <br />
+                    Team Lead
+                </div>
+                <div className='information' style={{
+                    marginTop: '41vh',
+                    left: '21vw'
+                }}>
+                    <strong>Michael Ly</strong> <br /> 
+                    Team Lead
+                </div>
+
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
+                    marginTop: '57vh',
+                    left: '24.5vw'
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
+                    marginTop: '57vh',
                     left: '0',
                     right: '0',
                     marginRight: 'auto',
@@ -85,46 +118,6 @@ function Team() {
                 }}> </div>
                 <div className='profile_image' style={{ 
                     backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
-                    marginTop: '11vh',
-                    left: '64.5vw'
-                }}> </div>
-                
-
-
-                <div className='information' style={{
-                    marginTop: '41vh',
-                    left: '-40vw'
-                }}>
-                    <strong>Alex Sanna</strong> <br />
-                    Team Lead
-                </div>
-                <div className='information' style={{
-                    marginTop: '41vh',
-                }}>
-                    <strong>Michael Ly</strong> <br /> 
-                </div>
-                <div className='information' style={{
-                    marginTop: '41vh',
-                    left: '40vw'
-                }}>
-                    <strong>Nicholas Hoang</strong> <br /> 
-                </div>
-
-                <div className='profile_image' style={{ 
-                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
-                    marginTop: '57vh',
-                    left: '24.5vw'
-                }}> </div>
-                <div className='profile_image' style={{ 
-                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
-                    marginTop: '57vh',
-                    left: '0',
-                    right: '0',
-                    marginRight: 'auto',
-                    marginLeft: 'auto',
-                }}> </div>
-                <div className='profile_image' style={{ 
-                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
                     marginTop: '57vh',
                     left: '64.5vw'
                 }}> </div>
@@ -133,7 +126,7 @@ function Team() {
                     marginTop: '87vh',
                     left: '-40vw'
                 }}>
-                    <strong>Joshua Estrada</strong> <br />
+                    <strong>Nicholas Hoang</strong> <br />
                 </div>
                 <div className='information' style={{
                     marginTop: '87vh',
@@ -148,6 +141,10 @@ function Team() {
                 </div>
             </div>
 
+
+            {/* 
+                QCAR TEAM
+            */}
             <div className='section' style= {{
                 height: '140vh',
                 backgroundColor: '#758C85'

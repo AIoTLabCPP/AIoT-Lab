@@ -19,10 +19,11 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <a href="/AIoT-Lab/src/index.html" style={{ textDecoration: 'none', cursor: 'pointer', display: 'inline-block', position: 'fixed', left: '5vw', top: '1.2vh' }}>
-            <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginRight: 8}} />
+            <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginRight: 8, top: '50%',
+            transform: 'translateY(10%)'}} />
           </a>
           
-          <Box sx={{ flexGrow: 1, display: 'flex', position: 'fixed', left: '11vw' }}>
+          <Box sx={{ flexGrow: 1, display: 'flex', position: 'relative', left: '11vw' }}>
             {pages.map((page, index) => (
               <Button
                 key={page}
