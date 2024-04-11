@@ -55,7 +55,7 @@ function Team() {
             </div>
 
             <div className='section' style= {{
-                height: '100vh',
+                height: '140vh',
                 backgroundColor: '#667A75'
             }}>   
                 <div className='section_title'>
@@ -68,12 +68,83 @@ function Team() {
                 <div className='subtitle' style={{
                     paddingTop: '4vh'
                 }}> 
-                    Graduate Students
-                </div>
-                <div className='subtitle' style={{
-                    paddingTop: '40vh'
-                }}> 
                     Undergraduate Students
+                </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/sanna_alex.jpg)`, 
+                    marginTop: '11vh',
+                    left: '24.5vw'
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/michael.jpg)`, 
+                    marginTop: '11vh',
+                    left: '0',
+                    right: '0',
+                    marginRight: 'auto',
+                    marginLeft: 'auto',
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
+                    marginTop: '11vh',
+                    left: '64.5vw'
+                }}> </div>
+                
+
+
+                <div className='information' style={{
+                    marginTop: '41vh',
+                    left: '-40vw'
+                }}>
+                    <strong>Alex Sanna</strong> <br />
+                    Team Lead
+                </div>
+                <div className='information' style={{
+                    marginTop: '41vh',
+                }}>
+                    <strong>Michael Ly</strong> <br /> 
+                </div>
+                <div className='information' style={{
+                    marginTop: '41vh',
+                    left: '40vw'
+                }}>
+                    <strong>Nicholas Hoang</strong> <br /> 
+                </div>
+
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
+                    marginTop: '57vh',
+                    left: '24.5vw'
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
+                    marginTop: '57vh',
+                    left: '0',
+                    right: '0',
+                    marginRight: 'auto',
+                    marginLeft: 'auto',
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/joshua_estrada.jpg)`, 
+                    marginTop: '57vh',
+                    left: '64.5vw'
+                }}> </div>
+
+                <div className='information' style={{
+                    marginTop: '87vh',
+                    left: '-40vw'
+                }}>
+                    <strong>Joshua Estrada</strong> <br />
+                </div>
+                <div className='information' style={{
+                    marginTop: '87vh',
+                }}>
+                    <strong>Placeholder</strong> <br /> 
+                </div>
+                <div className='information' style={{
+                    marginTop: '87vh',
+                    left: '40vw'
+                }}>
+                    <strong>Placeholder</strong> <br /> 
                 </div>
             </div>
 
@@ -94,12 +165,12 @@ function Team() {
                     Graduate Students
                 </div>
                 <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan_1.jpg)`, 
+                        backgroundImage: `url(./assets/wang_nathan.jpg)`, 
                         marginTop: '11vh',
                         left: '35vw'
                     }}> </div>
                     <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan_1.jpg)`, 
+                        backgroundImage: `url(./assets/wang_nathan.jpg)`, 
                         marginTop: '11vh',
                         left: '55vw'
                     }}> </div>
@@ -125,43 +196,43 @@ function Team() {
                     Undergraduate Students
                 </div>
                 <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan_1.jpg)`, 
-                        marginTop: '67vh',
-                        left: '24.5vw'
-                    }}> </div>
-                    <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan_1.jpg)`, 
-                        marginTop: '67vh',
-                        left: '0',
-                        right: '0',
-                        marginRight: 'auto',
-                        marginLeft: 'auto',
-                    }}> </div>
-                    <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan_1.jpg)`, 
-                        marginTop: '67vh',
-                        left: '64.5vw'
-                    }}> </div>
+                    backgroundImage: `url(./assets/wang_nathan.jpg)`, 
+                    marginTop: '67vh',
+                    left: '24.5vw'
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/wang_nathan.jpg)`, 
+                    marginTop: '67vh',
+                    left: '0',
+                    right: '0',
+                    marginRight: 'auto',
+                    marginLeft: 'auto',
+                }}> </div>
+                <div className='profile_image' style={{ 
+                    backgroundImage: `url(./assets/wang_nathan.jpg)`, 
+                    marginTop: '67vh',
+                    left: '64.5vw'
+                }}> </div>
 
-                    <div className='information' style={{
-                        marginTop: '97vh',
-                        left: '-40vw'
-                    }}>
-                        <strong>Nathan Wang</strong> <br />
-                        Lane Detection
-                    </div>
-                    <div className='information' style={{
-                        marginTop: '97vh',
-                    }}>
-                        <strong>Ket Hollingsworth</strong> <br /> 
-                        CARLA Simulation
-                    </div>
-                    <div className='information' style={{
-                        marginTop: '97vh',
-                        left: '40vw'
-                    }}>
-                        <strong>Edgar Santiago</strong> <br /> 
-                    </div>
+                <div className='information' style={{
+                    marginTop: '97vh',
+                    left: '-40vw'
+                }}>
+                    <strong>Nathan Wang</strong> <br />
+                    Lane Detection
+                </div>
+                <div className='information' style={{
+                    marginTop: '97vh',
+                }}>
+                    <strong>Ket Hollingsworth</strong> <br /> 
+                    CARLA Simulation
+                </div>
+                <div className='information' style={{
+                    marginTop: '97vh',
+                    left: '40vw'
+                }}>
+                    <strong>Edgar Santiago</strong> <br /> 
+                </div>
             </div> 
 
             <div className='section' style= {{
