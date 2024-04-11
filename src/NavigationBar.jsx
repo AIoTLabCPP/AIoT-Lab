@@ -18,23 +18,24 @@ function ResponsiveAppBar() {
     <AppBar position="fixed" style={{ top: 0, width: '100%', boxShadow: '0px 8px 4px rgba(0.5, 0.5, 0.5, 0.4)'}}> 
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <a href="/AIoT-Lab/src/index.html" style={{ textDecoration: 'none', cursor: 'pointer', display: 'inline-block', position: 'fixed', left: '5vw', top: '1.2vh' }}>
-            <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginRight: 8, top: '50%',
-            transform: 'translateY(10%)'}} />
-          </a>
-          
-          <Box sx={{ flexGrow: 1, display: 'flex', position: 'relative', left: '11vw' }}>
-            {pages.map((page, index) => (
-              <Button
-                key={page}
-                component="a" 
-                href={pageLinks[index]} 
-                style={{ color: 'white', display: 'block', textDecoration: 'none', position: 'relative', marginLeft: 5 }}
-              >
-                {page}
-              </Button>
-            ))}
-          </Box>
+          <div style={{ display: 'flex', alignItems: 'center' }}> {/* Parent container */}
+            <a href="/AIoT-Lab/src/index.html" style={{ textDecoration: 'none', cursor: 'pointer' }}>
+              <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginRight: 8, top: 0, bottom: 0, marginTop: 'auto', marginBottom: 'auto' }} />
+            </a>
+            
+            <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-start' }}> {/* Adjust as needed */}
+              {pages.map((page, index) => (
+                <Button
+                  key={page}
+                  component="a" 
+                  href={pageLinks[index]} 
+                  style={{ color: 'white', textDecoration: 'none', marginLeft: 5 }}
+                >
+                  {page}
+                </Button>
+              ))}
+            </Box>
+          </div>
         </Toolbar>
       </Container>
     </AppBar>
