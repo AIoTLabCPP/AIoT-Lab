@@ -18,9 +18,9 @@ function ResponsiveAppBar() {
     <AppBar position="fixed" style={{ top: 0, width: '100%', boxShadow: '0px 8px 4px rgba(0.5, 0.5, 0.5, 0.4)'}}> 
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <div style={{ display: 'flex', alignItems: 'center' }}> {/* Parent container */}
+          <div style={{ display: 'flex' }}> {/* Parent container */}
             <a href="/AIoT-Lab/src/index.html" style={{ textDecoration: 'none', cursor: 'pointer' }}>
-              <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginRight: 8, top: 0, bottom: 0, marginTop: 'auto', marginBottom: 'auto' }} />
+              <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginLeft: '2vw' }} />
             </a>
             
             <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-start' }}> {/* Adjust as needed */}
@@ -29,7 +29,7 @@ function ResponsiveAppBar() {
                   key={page}
                   component="a" 
                   href={pageLinks[index]} 
-                  style={{ color: 'white', textDecoration: 'none', marginLeft: 5 }}
+                  style={{ color: 'white', textDecoration: 'none', marginLeft: 5, fontSize: '3vh' }}
                 >
                   {page}
                 </Button>
