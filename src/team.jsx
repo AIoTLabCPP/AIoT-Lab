@@ -2,6 +2,10 @@ import './team.css';
 import React from 'react';
 import ResponsiveAppBar from './NavigationBar';
 import { createRoot } from 'react-dom/client';
+const teamLoader = async () => {
+    return {};
+  };
+  export { teamLoader };
 
 function Team() {
     return (

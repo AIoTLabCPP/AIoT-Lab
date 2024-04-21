@@ -3,10 +3,14 @@ import './App.css';
 import ResponsiveAppBar from './NavigationBar';
 import Slideshow from './Slideshow'; // Import the Slideshow component
 import team_photo from './assets/team_photo.jpg';
+ const rootLoader = async () => {
+  return {};
+};
+export { rootLoader };
 
 function App() {
   const [count, setCount] = useState(0);
-  const images = [team_photo];
+  const images = [team_photo]; 
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
