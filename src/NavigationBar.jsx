@@ -8,9 +8,9 @@ import aiotlogo from './assets/AIOT_logo.png';
 
 const pages = ['Outcomes', 'Team', 'News'];
 const pageLinks = [
-  '/AIoT-Lab/src/outcomes.html',
-  '/AIoT-Lab/src/team.html',
-  '/AIoT-Lab/src/news.html'
+  '/outcomes.html',
+  '/team.html',
+  '/news.html'
 ]; 
 
 function ResponsiveAppBar() {
@@ -20,7 +20,7 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
           <div style={{ display: 'flex' }}> {/* Parent container */}
             <a href="/AIoT-Lab/src/index.html" style={{ textDecoration: 'none', cursor: 'pointer' }}>
-              <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40, marginLeft: '0.25vw' }} />
+              <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40 }} />
             </a>
             
             <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-start' }}> {/* Adjust as needed */}

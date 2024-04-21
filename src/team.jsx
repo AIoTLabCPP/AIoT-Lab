@@ -48,7 +48,7 @@ function Team() {
                 <div className='subtitle' style={{
                     paddingTop: '4vh'
                 }}> 
-                    Graduate Students
+                    Graduate Student
                 </div>
                 <div className='subtitle' style={{
                     paddingTop: '40vh'
@@ -104,7 +104,7 @@ function Team() {
                 </div>
 
                 <div className='profile_image' style={{ 
-                    backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
+                    backgroundImage: `url(./assets/sheth_darshil.jpg)`, 
                     marginTop: '57vh',
                     left: '24.5vw'
                 }}> </div>
@@ -117,7 +117,7 @@ function Team() {
                     marginLeft: 'auto',
                 }}> </div>
                 <div className='profile_image' style={{ 
-                    backgroundImage: `url(./assets/hoang_nicholas.jpg)`, 
+                    backgroundImage: `url(./assets/cursaro_sebastian.jpg)`, 
                     marginTop: '57vh',
                     left: '64.5vw'
                 }}> </div>
@@ -126,18 +126,18 @@ function Team() {
                     marginTop: '87vh',
                     left: '-40vw'
                 }}>
-                    <strong>Nicholas Hoang</strong> <br />
+                    <strong>Darshil Sheth</strong> <br />
                 </div>
                 <div className='information' style={{
                     marginTop: '87vh',
                 }}>
-                    <strong>Placeholder</strong> <br /> 
+                    <strong>Nicholas Hoang</strong> <br /> 
                 </div>
                 <div className='information' style={{
                     marginTop: '87vh',
                     left: '40vw'
                 }}>
-                    <strong>Placeholder</strong> <br /> 
+                    <strong>Sebastian Cursaro</strong> <br /> 
                 </div>
             </div>
 
