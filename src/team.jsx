@@ -2,10 +2,10 @@ import './team.css';
 import React from 'react';
 import ResponsiveAppBar from './NavigationBar';
 import { createRoot } from 'react-dom/client';
-const teamLoader = async () => {
+const rootLoader = async () => {
     return {};
   };
-  export { teamLoader };
+  export { rootLoader };
 
 function Team() {
     return (
@@ -171,7 +171,7 @@ function Team() {
                         left: '35vw'
                     }}> </div>
                     <div className='profile_image' style={{ 
-                        backgroundImage: `url(./assets/wang_nathan.jpg)`, 
+                        backgroundImage: `url(./assets/trinh_phong.png)`, 
                         marginTop: '11vh',
                         left: '55vw'
                     }}> </div>
