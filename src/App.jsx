@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import ResponsiveAppBar from './NavigationBar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Slideshow from './Slideshow'; // Import the Slideshow component
 import team_photo from './assets/team_photo.jpg';
+
  const rootLoader = async () => {
   return {};
 };
