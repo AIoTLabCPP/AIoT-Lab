@@ -1,15 +1,25 @@
-import React from "react"
-import "../assets/css/navBar.css"
+import React from "react";
+import "../assets/css/navBar.css";
+import { Link } from "react-router-dom";
+import aiotlogo from '../assets/images/AIOT_logo.png';
 
-export default function navBar() {
+export default function NavBar() {
   return (
     <div className="navBar">
-      <div className="icon items">icon</div>
-      <div className="team items">
-        <a href="/team">team</a>
+       <div className="icon items">
+        <Link to="/">
+          <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40 }} />
+        </Link>
       </div>
-      <div className="outcomes items">outcomes</div>
-      <div className="news items">news</div>
+      <div className="pages items">
+        <Link to="/team">TEAM</Link>
+      </div>
+      <div className="pages items">
+        <Link to="/outcomes">OUTCOMES</Link>
+      </div>
+      <div className="pages items">
+        <Link to="/news">NEWS</Link>
+      </div>
     </div>
-  )
+  );
 }

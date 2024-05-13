@@ -1,17 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
+import Outcomes from "./pages/Outcomes";
+import News from "./pages/News";
 
 function App() {
-
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/team" element={ <Team/> } />
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/outcomes" element={<Outcomes />} />
+        <Route path="/news" element={<News />} />
       </Routes>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
