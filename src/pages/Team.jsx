@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "../components/NavBar"
 import "../assets/css/team.css"
+import wang_yunsheng from "../assets/images/wang_yunsheng.jpg"
 
 export default function Team() {
   return (
@@ -14,7 +15,7 @@ export default function Team() {
           FACULTY
         </div>
         <div className="profile_image" style={{ 
-          backgroundImage: `url(./src/assets/images/wang_yunsheng.jpg)`,
+          backgroundImage: `url(${wang_yunsheng})`,
           marginLeft: 'auto',
           marginRight: 'auto'
         }}>
@@ -47,7 +48,7 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/background.jpg)`, 
+              backgroundImage: `url(../assets/images/peabody_jack.jpg)`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
