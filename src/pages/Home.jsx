@@ -6,7 +6,7 @@ import team_photo from '../assets/images/team_photo.jpg';
 import donkey_car_photo from '../assets/images/donkey_car_team.jpg';
 import donkey_car from '../assets/images/donkey_car.jpg';
 import presentation_photo from '../assets/images/presentation_photo.jpg';
-
+import nsflogo from '../assets/images/NSF_logo.png';
 
 export default function home() {
   const images = [team_photo, donkey_car_photo, donkey_car, presentation_photo]; 
@@ -53,6 +53,9 @@ export default function home() {
         </div>
         <div className='sponsors'>
           SPONSORS
+          <div className='images'>
+            <img src={nsflogo} alt="NSF logo" style={{ width: '250px', height: 'auto' }} />
+          </div>
         </div>
       </div>
     </div>

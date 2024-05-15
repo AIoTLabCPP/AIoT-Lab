@@ -6,246 +6,127 @@ export default function Team() {
   return (
     <div className="team">
       <NavBar/>
-      {/* AGILE CAR TEAM */}
-      <div className='section' style= {{
-          height: '65vh',
-          backgroundColor: '#324039'
-      }}>
-          <div className='section_title' style= {{
-              top: '5vh'
-          }}>
-              FACULTY
-          </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/wang_yunsheng.jpg)`, 
-              top: '14vh',
-              left: '0',
-              right: '0',
-              marginLeft: 'auto',
-              marginRight: 'auto', 
-          }}> </div>
-          <div className='information' style={{
-              top: '50vh'
-          }}>
-              Prof. Yunsheng Wang <br />
-              LinkedIn <br />
-          </div>
+      {/* FACULTY */}
+      <div className='section'>
+        <div className='section_title' style={{
+            paddingTop: '80px'
+        }}>
+          FACULTY
+        </div>
+        <div className="profile_image" style={{ 
+          backgroundImage: `url(../assets/images/profiles/wang_yunsheng.jpg)`,
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }}>
+        </div>
+        <a href="https://www.linkedin.com/in/yunsheng-wang-37297517/" className="information" style={{
+          margin: 'auto',
+          paddingTop: '10px',
+          paddingBottom: '30px'
+        }}>
+          Professor Yunsheng Wang
+        </a>
       </div>
 
+      {/* AGILE CAR TEAM */}
       <div className='section' style= {{
-          height: '100vh',
           backgroundColor: '#485B51'
-      }}>
-          <div className='section_title'>
-              AGILE CAR TEAM
-          </div>
-          <div className='team_description'>
-              Agile car team description
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '4vh'
-          }}> 
-              Graduate Student
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '40vh'
-          }}> 
-              Undergraduate Students
-          </div>
+      }}>   
+        <div className='section_title'>
+          AGILE CAR TEAM
+        </div>
+        <div className='team_description'>
+          Agile car team description
+        </div>
+        <div className='subtitle'> 
+          Graduate Students
+        </div>
       </div>
+
 
       {/* DONKEY CAR TEAM */}
       <div className='section' style= {{
-          height: '130vh',
-          backgroundColor: '#667A75'
-      }}>   
-          <div className='section_title'>
-              DONKEY CAR TEAM
-          </div>
-          <div className='team_description'>
-              To develop an accurate and efficient autonomous driving software that utilizes the latest breakthroughs in <br /> 
-              machine learning and edge computing
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '4vh'
-          }}> 
-              Undergraduate Students
-          </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/sanna_alex.jpg)`, 
-              marginTop: '11vh',
-              left: '35vw'
-          }}> </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/michael.jpg)`, 
-              marginTop: '11vh',
-              left: '55vw',
-          }}> </div>
-      
-          <div className='information' style={{
-              marginTop: '41vh',
-              left: '-19vw'
-          }}>
-              <strong>Alex Sanna</strong> <br />
-              Team Lead
-          </div>
-          <div className='information' style={{
-              marginTop: '41vh',
-              left: '21vw'
-          }}>
-              <strong>Michael Ly</strong> <br /> 
-              Team Lead
-          </div>
-
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/sheth_darshil.jpg)`, 
-              marginTop: '57vh',
-              left: '24.5vw'
-          }}> </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/hoang_nicholas.jpg)`, 
-              marginTop: '57vh',
-              left: '0',
-              right: '0',
-              marginRight: 'auto',
-              marginLeft: 'auto',
-          }}> </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/cursaro_sebastian.jpg)`, 
-              marginTop: '57vh',
-              left: '64.5vw'
-          }}> </div>
-
-          <div className='information' style={{
-              marginTop: '87vh',
-              left: '-40vw'
-          }}>
-              <strong>Darshil Sheth</strong> <br />
-          </div>
-          <div className='information' style={{
-              marginTop: '87vh',
-          }}>
-              <strong>Nicholas Hoang</strong> <br /> 
-          </div>
-          <div className='information' style={{
-              marginTop: '87vh',
-              left: '40vw'
-          }}>
-              <strong>Sebastian Cursaro</strong> <br /> 
-          </div>
-      </div>
-
-
-      {/* 
-          QCAR TEAM
-      */}
-      <div className='section' style= {{
-          height: '140vh',
           backgroundColor: '#758C85'
       }}>   
-          <div className='section_title'>
-              QUANSER CAR (QCAR) TEAM
-          </div>
-          <div className='team_description'>
-              To design a fully autonomous vehicle system leveraging cutting edge AI/ML technologies for lane detection, <br />
-              object detection, and much more. 
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '4vh'
-          }}> 
-              Graduate Students
-          </div>
-          <div className='profile_image' style={{ 
-                  backgroundImage: `url(../assets/images/profiles/wang_nathan.jpg)`, 
-                  marginTop: '11vh',
-                  left: '35vw'
-              }}> </div>
-              <div className='profile_image' style={{ 
-                  backgroundImage: `url(../assets/images/profiles/trinh_phong.png)`, 
-                  marginTop: '11vh',
-                  left: '55vw'
-              }}> </div>
-
-              <div className='information' style={{
-                  marginTop: '41vh',
-                  left: '-19vw'
-              }}>
-                  <strong>Abhishek Vishwakarma</strong> <br />
-                  Lane Detection
-              </div>
-              <div className='information' style={{
-                  marginTop: '41vh',
-                  left: '21vw'
-              }}>
-                  <strong>Phong Trinh</strong> <br /> 
-                  Object Detection
-              </div>
-
-          <div className='subtitle' style={{
-              paddingTop: '60vh'
-          }}> 
-              Undergraduate Students
-          </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/wang_nathan.jpg)`, 
-              marginTop: '67vh',
-              left: '24.5vw'
-          }}> </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/wang_nathan.jpg)`, 
-              marginTop: '67vh',
-              left: '0',
-              right: '0',
-              marginRight: 'auto',
-              marginLeft: 'auto',
-          }}> </div>
-          <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/profiles/wang_nathan.jpg)`, 
-              marginTop: '67vh',
-              left: '64.5vw'
-          }}> </div>
-
-          <div className='information' style={{
-              marginTop: '97vh',
-              left: '-40vw'
+        <div className='section_title'>
+          DONKEY CAR TEAM
+        </div>
+        <div className='team_description'>
+          To develop an accurate and efficient autonomous driving software that utilizes the latest breakthroughs in <br /> 
+          machine learning and edge computing
+        </div>
+        <div className='subtitle'> 
+          Undergraduate Students
+          <div className="profile_container" style={{
+              paddingLeft: '30vw',
+              paddingRight: '30vw'
           }}>
-              <strong>Nathan Wang</strong> <br />
-              Lane Detection
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(../assets/images/profiles/sanna_alex.jpg)`, 
+            }}> </div>
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(../assets/images/profiles/michael.jpg)`, 
+            }}> </div>
           </div>
-          <div className='information' style={{
-              marginTop: '97vh',
+          <div className="profile_container"style={{
+            paddingTop: '10px',
+            paddingLeft: '30vw',
+            paddingRight: '30vw'
           }}>
-              <strong>Ket Hollingsworth</strong> <br /> 
-              CARLA Simulation
+            <a href="https://www.linkedin.com/in/alex-sanna-428804215/" className="information"> <strong>Alex Sanna</strong> </a>
+            <a href="https://www.linkedin.com/in/michael-ly-swe/" className="information"> <strong>Michael Ly</strong> </a>
           </div>
-          <div className='information' style={{
-              marginTop: '97vh',
-              left: '40vw'
+          <div className="profile_container"style={{
+            paddingLeft: '30vw',
+            paddingRight: '30vw'
           }}>
-              <strong>Edgar Santiago</strong> <br /> 
+            <div className="information">Team Lead</div>
+            <div className="information">Team Lead</div>
           </div>
-      </div> 
+          <div className="profile_container" style={{
+            paddingLeft: '20vw',
+            paddingRight: '20vw'
+          }}>
+          <div className='profile_image' style={{ 
+              backgroundImage: `url(../assets/images/profiles/sheth_darshil.jpg)`, 
+            }}> </div>
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(../assets/images/profiles/hoang_nicholas.jpg)`, 
+            }}> </div>
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(../assets/images/profiles/cursaro_sebastian.jpg)`, 
+            }}> </div>
+          </div>
+          <div className="profile_container"style={{
+            paddingTop: '10px',
+            
+          }}>
+            <a href="https://www.linkedin.com/in/darshilsheth/" className="information" style={{
+              paddingLeft: '500px'
+            }}> 
+              <strong>Darshil Sheth</strong> 
+            </a>
+            <a href="https://www.linkedin.com/in/nicholas-hoang-7b1644235/" className="information" style={{
+              paddingLeft: '20px',
+              margin: 'auto'
+            }}> 
+              <strong>Nicholas Hoang</strong> 
+            </a>
+            <a href="https://www.linkedin.com/in/sebastian-cursaro-483425268/" className="information" style={{
+              paddingRight: '465px'
+            }}> 
+              <strong>Sebastian Cursaro</strong> 
+            </a>
+          </div>
+        </div>
+      </div>
 
+      {/* ALUMNI */}
       <div className='section' style= {{
           height: '100vh',
           backgroundColor: '#737259'
       }}>   
-          <div className='section_title'>
-              ALUMNI
-          </div>
-          <div className='team_description'>
-              Past team members
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '4vh'
-          }}> 
-              Graduate Students
-          </div>
-          <div className='subtitle' style={{
-              paddingTop: '40vh'
-          }}> 
-              Undergraduate Students
-          </div>
+          
       </div>
     </div>
   )

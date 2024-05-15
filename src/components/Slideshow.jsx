@@ -15,7 +15,7 @@ const Slideshow = ({ images }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       nextSlide();
-    }, 8000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);

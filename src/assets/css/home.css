@@ -79,11 +79,11 @@
 .project_header {
   width: 100%;
   height: auto;
-  color: #B9C7CB;
+  color: #5B7170;
   font-weight: 300;
   font-size: 7vh;
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 2.5vh;
 }
 
 .project_description {
