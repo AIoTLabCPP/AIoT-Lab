@@ -2,6 +2,20 @@ import React from "react"
 import NavBar from "../components/NavBar"
 import "../assets/css/team.css"
 import wang_yunsheng from "../assets/images/wang_yunsheng.jpg"
+import peabody_jack from "../assets/images/peabody_jack.jpg"
+import khai_pau from "../assets/images/khai_pau.jpg"
+import estrada_joshua from "../assets/images/estrada_joshua.jpg"
+import chung_justin from "../assets/images/chung_justin.jpg"
+import hu_huijun from "../assets/images/hu_huijun.jpg"
+import sanna_alex from "../assets/images/sanna_alex.jpg"
+import ly_michael from "../assets/images/michael.jpg"
+import sheth_darshil from "../assets/images/sheth_darshil.jpg"
+import hoang_nicholas from "../assets/images/hoang_nicholas.jpg"
+import cursaro_sebastian from "../assets/images/cursaro_sebastian.jpg"
+import viswhakarama_abhishek from "../assets/images/vishwakarma_abhishek.jpg"
+import trinh_phong from "../assets/images/trinh_phong.png"
+import hollingsworth_ket from "../assets/images/hollingsworth_ket.jpg"
+import wang_nathan from "../assets/images/wang_nathan.jpg"
 
 export default function Team() {
   return (
@@ -48,11 +62,11 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/peabody_jack.jpg)`, 
+              backgroundImage: `url(${peabody_jack})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/khai_pau.jpg)`, 
+              backgroundImage: `url(${khai_pau})`, 
             }}> </div>
 
           </div>
@@ -83,15 +97,15 @@ export default function Team() {
               paddingRight: '20vw'
             }}>
             <div className='profile_image' style={{ 
-                backgroundImage: `url(../assets/images/estrada_joshua.jpg)`, 
+                backgroundImage: `url(${estrada_joshua})`, 
               }}> </div>
 
               <div className='profile_image' style={{ 
-                backgroundImage: `url(../assets/images/chung_justin.jpg)`, 
+                backgroundImage: `url(${chung_justin})`, 
               }}> </div>
 
               <div className='profile_image' style={{ 
-                backgroundImage: `url(../assets/images/hu_huijun.jpg)`, 
+                backgroundImage: `url(${hu_huijun})`, 
               }}> </div>
 
             </div>
@@ -143,11 +157,11 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/sanna_alex.jpg)`, 
+              backgroundImage: `url(${sanna_alex})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/michael.jpg)`, 
+              backgroundImage: `url(${ly_michael})`, 
             }}> </div>
 
           </div>
@@ -179,15 +193,15 @@ export default function Team() {
             paddingRight: '20vw'
           }}>
           <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/sheth_darshil.jpg)`, 
+              backgroundImage: `url(${sheth_darshil})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/hoang_nicholas.jpg)`, 
+              backgroundImage: `url(${hoang_nicholas})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/cursaro_sebastian.jpg)`, 
+              backgroundImage: `url(${cursaro_sebastian})`, 
             }}> </div>
 
           </div>
@@ -237,11 +251,11 @@ export default function Team() {
             paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/vishwakarma_abhishek.jpg)`, 
+              backgroundImage: `url(${viswhakarama_abhishek})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/trinh_phong.png)`, 
+              backgroundImage: `url(${trinh_phong})`, 
             }}> </div>
 
           </div>
@@ -272,15 +286,15 @@ export default function Team() {
             paddingRight: '20vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/no_avatar.jpg)`, 
+              backgroundImage: `url()`, 
             }}> </div>
   
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/hollingsworth_ket.jpg)`, 
+              backgroundImage: `url(${hollingsworth_ket})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/wang_nathan.jpg)`, 
+              backgroundImage: `url(${wang_nathan})`, 
             }}> </div>  
             
           </div>
