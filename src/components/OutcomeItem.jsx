@@ -13,5 +13,5 @@ export default function OutcomeItem({ img, title, text }) {
         <div className="outcome_text">{text}</div>
       </div>
     </div>
-  );
+  ); 
 }

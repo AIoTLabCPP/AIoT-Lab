@@ -5,7 +5,12 @@ export default function news() {
   return (
     <div className="news">
       <NavBar/>
-      News
+      <div className="news_wrapper">
+        NEWS
+        <div className="news_section">
+          
+        </div>
+      </div>
     </div>
   )
 }
