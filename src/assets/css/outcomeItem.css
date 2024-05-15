@@ -15,7 +15,8 @@
 }
 
 .outcome_title {
-    height: 5.5vh;
+    font: 5vh;
+    height: min-content;
     width: 22vw;
     border-bottom: 4px solid;
 }
