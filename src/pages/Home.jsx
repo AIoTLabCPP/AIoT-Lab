@@ -54,7 +54,7 @@ export default function home() {
         <div className='sponsors'>
           SPONSORS
           <div className='images'>
-            <img src={nsflogo} alt="NSF logo" style={{ width: '250px', height: 'auto' }} />
+            <img src={nsflogo} alt="NSF logo" style={{ width: '30vh', height: 'auto' }} />
           </div>
         </div>
       </div>

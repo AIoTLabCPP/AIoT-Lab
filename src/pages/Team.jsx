@@ -99,21 +99,20 @@ export default function Team() {
           </div>
           <div className="profile_container"style={{
             paddingTop: '10px',
-            
+            paddingLeft: '25.85vw',
+            paddingRight: '24.5vw'
           }}>
             <a href="https://www.linkedin.com/in/darshilsheth/" className="information" style={{
-              paddingLeft: '500px'
             }}> 
               <strong>Darshil Sheth</strong> 
             </a>
             <a href="https://www.linkedin.com/in/nicholas-hoang-7b1644235/" className="information" style={{
-              paddingLeft: '20px',
-              margin: 'auto'
+              margin: 'auto',
+              paddingLeft: '1.75vw'
             }}> 
               <strong>Nicholas Hoang</strong> 
             </a>
             <a href="https://www.linkedin.com/in/sebastian-cursaro-483425268/" className="information" style={{
-              paddingRight: '465px'
             }}> 
               <strong>Sebastian Cursaro</strong> 
             </a>
