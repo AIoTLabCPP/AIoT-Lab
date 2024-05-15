@@ -47,7 +47,7 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(../assets/images/peabody_jack.jpg)`, 
+              backgroundImage: `url(../assets/images/background.jpg)`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
