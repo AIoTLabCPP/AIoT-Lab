@@ -14,7 +14,7 @@ export default function Team() {
           FACULTY
         </div>
         <div className="profile_image" style={{ 
-          backgroundImage: `url(./src/assets/images/background.jpg)`,
+          backgroundImage: `url(./src/assets/images/wang_yunsheng.jpg)`,
           marginLeft: 'auto',
           marginRight: 'auto'
         }}>
