@@ -8,7 +8,7 @@ export default function Outcomes({ teamName, outcomes }) {
       <div className="title">{teamName}</div>
       <div className="info_box">
         {outcomes.map((outcome) => (
-          <OutcomeItem img={outcome.img} outcome={outcome.text}/>
+          <OutcomeItem img={outcome.img} title={outcome.title} text={outcome.text}/>
         ))} 
       </div>
     </div>

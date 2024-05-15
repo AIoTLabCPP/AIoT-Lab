@@ -7,6 +7,7 @@
   color: #51503D;
   width: min-content;
   display: flex;
+  margin-bottom: 2vh;
   flex-direction: column;
   background-color: #CEDADF;
   font-size: 35px;

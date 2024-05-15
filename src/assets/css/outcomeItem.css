@@ -1,9 +1,28 @@
 .outcome_item {
     display: flex;
     flex-direction: row;
-    width: 580px;
+    width: 80vw;
     background-color: #E6ECEF;
     border-radius: 5px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.text_wrapper {
+    width: 100%;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.outcome_title {
+    height: 5.5vh;
+    width: 22vw;
+    border-bottom: 4px solid;
+}
+
+.outcome_text {
+    width: 100%;
+    height: calc(100% - 5.8vh);
+    font-size: 3vh;
+    color: #51503D;
 }
