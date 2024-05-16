@@ -3,19 +3,16 @@ import NavBar from "../components/NavBar"
 import "../assets/css/outcomes.css"
 import TeamOutcomes from "../components/TeamOutcomes"
 import { outcomesFile } from "../assets/data/outcomes"
+import { publicationsFile } from "../assets/data/publications"
+import PublicationItem from "../components/PublicationItem"
 
 export default function Outcomes() {
-  const outcomes = outcomesFile
+  const outcomes = outcomesFile;
+  const publications = publicationsFile;
 
   return (
     <div>
       <NavBar />
-      <div className="publications_wrapper">
-        PUBLICATIONS
-        <div className="publications">
-          publications
-        </div>
-      </div>
       <div className="outcomes_wrapper">
         OUTCOMES
         <div className="outcomes">
@@ -25,7 +22,14 @@ export default function Outcomes() {
               outcomes={team.outcomes}/>
           ))}
         </div>
-          
+      </div>
+      <div className="publications_wrapper">
+        PUBLICATIONS
+        <div className="publications">
+          {publications.map((publication, index) => (
+            <PublicationItem key={index} publication={publication.publication} />
+          ))}
+        </div>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ export const outcomesFile = [
     teamName: "AGILE CAR OUTCOMES", outcomes: [
       {
         img: object_detection, 
-        title:"title", 
+        title: "title", 
         text: "text"
       },
 

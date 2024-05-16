@@ -1,4 +1,14 @@
  .news_wrapper {
-    margin-top: 85px;
-    background-color: #DBDBD2;
+    padding-top: 8.5vh;
+    font-size: 8.5vh;
+    background-color: #676751;
+    text-align: center;
+    min-height: calc(100vh - 8.5vh);
+ }
+
+ .news_section {
+   border-top: 0.6vh solid white;
+   background-color: #676751;
+   margin-left: 5vw;
+   margin-right: 5vw;
  }

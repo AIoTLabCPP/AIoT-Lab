@@ -8,7 +8,7 @@ export default function NavBar() {
     <div className="navBar">
        <div className="icon items">
         <Link to="/">
-          <img alt="AIOT Logo" src={aiotlogo} style={{ width: 110, height: 40 }} />
+          <img alt="AIOT Logo" src={aiotlogo} style={{ width: '5.7vw', height: '4.3vh' }} />
         </Link>
       </div>
       <div className="pages items">
