@@ -97,7 +97,7 @@ export default function home() {
           research, pursuing a thesis, or collaborating on innovative projects, the AIoT Lab provides a stimulating environment to explore and develop your ideas. <br />
           
           <br /> <strong>Contact Us</strong> <br />
-          For more information about the AIoT Lab, our research, and opportunities to collaborate, please contact Dr. Yunsheng Wang at yunshengwang@cpp.edu. <br />
+          For more information about the AIoT Lab, our research, and opportunities to collaborate, please contact Dr. Yunsheng Wang at <u>yunshengwang@cpp.edu</u>. <br />
         </div>
         <div className='dot_menu hidden'>
           &hellip;

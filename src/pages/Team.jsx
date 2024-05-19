@@ -1,22 +1,7 @@
 import React from "react"
 import NavBar from "../components/NavBar"
 import "../assets/css/team.css"
-import wang_yunsheng from "../assets/images/profiles/wang_yunsheng.jpg"
-import peabody_jack from "../assets/images/profiles/peabody_jack.jpg"
-import khai_pau from "../assets/images/profiles/khai_pau.jpg"
-import estrada_joshua from "../assets/images/profiles/estrada_joshua.jpg"
-import chung_justin from "../assets/images/profiles/chung_justin.jpg"
-import hu_huijun from "../assets/images/profiles/hu_huijun.jpg"
-import sanna_alex from "../assets/images/profiles/sanna_alex.jpg"
-import ly_michael from "../assets/images/profiles/michael.jpg"
-import sheth_darshil from "../assets/images/profiles/sheth_darshil.jpg"
-import hoang_nicholas from "../assets/images/profiles/hoang_nicholas.jpg"
-import cursaro_sebastian from "../assets/images/profiles/cursaro_sebastian.jpg"
-import viswhakarama_abhishek from "../assets/images/profiles/vishwakarma_abhishek.jpg"
-import trinh_phong from "../assets/images/profiles/trinh_phong.png"
-import hollingsworth_ket from "../assets/images/profiles/hollingsworth_ket.jpg"
-import wang_nathan from "../assets/images/profiles/wang_nathan.jpg"
-import no_avatar from "../assets/images/no_avatar.jpg"
+import * as profileImages from "../assets/data/profiles";
 
 export default function Team() {
   return (
@@ -30,7 +15,7 @@ export default function Team() {
           FACULTY
         </div>
         <div className="profile_image" style={{ 
-          backgroundImage: `url(${wang_yunsheng})`,
+          backgroundImage: `url(${profileImages.wang_yunsheng})`,
           marginLeft: 'auto',
           marginRight: 'auto'
         }}>
@@ -63,11 +48,11 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${peabody_jack})`, 
+              backgroundImage: `url(${profileImages.peabody_jack})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${khai_pau})`, 
+              backgroundImage: `url(${profileImages.khai_pau})`, 
             }}> </div>
 
           </div>
@@ -94,28 +79,31 @@ export default function Team() {
           <div className="subtitle">
             Undergraduate Students
             <div className="profile_container" style={{
-              paddingLeft: '20vw',
-              paddingRight: '20vw'
+              paddingLeft: '10vw',
+              paddingRight: '10vw'
             }}>
             <div className='profile_image' style={{ 
-                backgroundImage: `url(${estrada_joshua})`, 
+                backgroundImage: `url(${profileImages.estrada_joshua})`, 
               }}> </div>
 
               <div className='profile_image' style={{ 
-                backgroundImage: `url(${chung_justin})`, 
+                backgroundImage: `url(${profileImages.chung_justin})`, 
               }}> </div>
 
               <div className='profile_image' style={{ 
-                backgroundImage: `url(${hu_huijun})`, 
+                backgroundImage: `url(${profileImages.gafafyan_sarkis})`, 
+              }}> </div>
+
+              <div className='profile_image' style={{ 
+                backgroundImage: `url(${profileImages.hu_huijun})`, 
               }}> </div>
 
             </div>
 
             <div className="profile_container"style={{
               paddingTop: '10px',
-              paddingLeft: '25.25vw',
-              paddingRight: '27.25vw',
-              paddingBottom: '3vh'
+              paddingLeft: '15.25vw',
+              paddingRight: '17.15vw',
             }}>
               <a href="https://www.linkedin.com/in/joshua-estrada22/" className="information"> 
                 <strong>Joshua Estrada</strong> 
@@ -123,9 +111,16 @@ export default function Team() {
 
               <a href="https://www.linkedin.com/in/justchung/" className="information" style={{
                 margin: 'auto',
-                paddingRight: '1.75vw'
+                paddingLeft: '5.75vw'
               }}> 
                 <strong>Justin Chung</strong> 
+              </a>
+
+              <a href="https://www.linkedin.com/in/sarkisgafafyan/" className="information" style={{
+                margin: 'auto',
+                paddingRight: '7vw'
+              }}> 
+                <strong>Sarkis Gafafyan</strong> 
               </a>
 
               <a href="https://www.linkedin.com/in/huijun-hu-28045716a/" className="information"> 
@@ -133,6 +128,21 @@ export default function Team() {
               </a>
 
             </div>
+
+            <div className="profile_container"style={{
+              paddingLeft: '10vw',
+              paddingRight: '9.25vw',
+              paddingBottom: '3vh'
+            }}>
+            <div className="information">Control</div>
+
+            <div className="information">Perception</div>
+
+            <div className="information">Control</div>
+
+            <div className="information">Perception</div>
+
+          </div>
           </div>
         </div>
       </div>
@@ -158,11 +168,11 @@ export default function Team() {
               paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${sanna_alex})`, 
+              backgroundImage: `url(${profileImages.sanna_alex})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${ly_michael})`, 
+              backgroundImage: `url(${profileImages.ly_michael})`, 
             }}> </div>
 
           </div>
@@ -194,15 +204,15 @@ export default function Team() {
             paddingRight: '20vw'
           }}>
           <div className='profile_image' style={{ 
-              backgroundImage: `url(${sheth_darshil})`, 
+              backgroundImage: `url(${profileImages.sheth_darshil})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${hoang_nicholas})`, 
+              backgroundImage: `url(${profileImages.hoang_nicholas})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${cursaro_sebastian})`, 
+              backgroundImage: `url(${profileImages.cursaro_sebastian})`, 
             }}> </div>
 
           </div>
@@ -252,11 +262,11 @@ export default function Team() {
             paddingRight: '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${viswhakarama_abhishek})`, 
+              backgroundImage: `url(${profileImages.viswhakarama_abhishek})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${trinh_phong})`, 
+              backgroundImage: `url(${profileImages.trinh_phong})`, 
             }}> </div>
 
           </div>
@@ -270,6 +280,7 @@ export default function Team() {
             <a href="https://www.linkedin.com/in/phong-d-trinh/" className="information"> <strong>Phong Trinh</strong> </a>
 
           </div>
+          
           <div className="profile_container"style={{
             paddingLeft: '30.25vw',
             paddingRight: '30vw'
@@ -287,15 +298,15 @@ export default function Team() {
             paddingRight: '20vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${no_avatar})`, 
+              backgroundImage: `url(${profileImages.no_avatar})`, 
             }}> </div>
   
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${hollingsworth_ket})`, 
+              backgroundImage: `url(${profileImages.hollingsworth_ket})`, 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${wang_nathan})`, 
+              backgroundImage: `url(${profileImages.wang_nathan})`, 
             }}> </div>  
             
           </div>

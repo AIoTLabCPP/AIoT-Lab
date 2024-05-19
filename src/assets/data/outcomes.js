@@ -1,20 +1,17 @@
 import donkey_car_lane_detection from "../images/donkey_car_lane_detection.jpg"
 import object_detection from "../images/object_detection.jpg"
 import lane_detection from "../images/lane_detection.jpg"
+import agile_car from "../images/agile_car.jpg"
 
 export const outcomesFile = [
   { 
     teamName: "AGILE CAR OUTCOMES", outcomes: [
       {
-        img: object_detection, 
-        title: "title", 
-        text: "text"
-      },
-
-      {
-        img: object_detection, 
-        title:"title", 
-        text: "text"
+        img: agile_car, 
+        title: "Optical Navigation", 
+        text: "Developed optical navigation capabilities, where the robot navigates by identifying and reading text off\
+        of signs. Integrated additional sensors and compute on the Scout Mini platform. Software stack developed using\
+        image processing, optical character recognition, and visual servoing techniques."
       }
     ]
   },
