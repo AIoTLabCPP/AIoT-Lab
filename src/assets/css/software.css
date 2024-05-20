@@ -1,26 +1,3 @@
-.publications_wrapper {
-    text-align: center;
-    font-size: 8.5vh;
-    background-color: #102C42;
-    color: #E6ECEF;
-    padding-top: 1.5vh;
-    margin-bottom: 0px;
-}
-
-.publications {
-    background-color: #102C42;
-    display: flex;
-    flex-direction: column;
-    color: #E6ECEF;
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    border-top: 0.6vh solid #E6ECEF;
-    font-weight: 200;
-    font-size: 4vh;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
-}
-
 .outcomes_wrapper {
     padding-top: 8.5vh;
     padding-bottom: 1.5vh;

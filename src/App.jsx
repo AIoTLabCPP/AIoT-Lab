@@ -2,7 +2,8 @@ import { Routes, Route, HashRouter, useLocation } from "react-router-dom";
 import { useEffect } from 'react';
 import Home from "./pages/Home";
 import Team from "./pages/Team";
-import Outcomes from "./pages/Outcomes";
+import Software from "./pages/Software";
+import Publications from "./pages/Publications";
 import News from "./pages/News";
 
 function ScrollToTopOnPageChange() {
@@ -22,7 +23,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/outcomes" element={<Outcomes />} />
+        <Route path="/software" element={<Software />} />
+        <Route path="/publications" element={<Publications />} />
         <Route path="/news" element={<News />} />
       </Routes>
     </HashRouter>

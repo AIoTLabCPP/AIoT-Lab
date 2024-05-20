@@ -38,7 +38,7 @@ export default function home() {
           AIOT LAB
         </div>
         <div className='main_subtext fadein fadein-visible'>
-          Looking forward to a better future on the road.
+          Shaping a smarter, more connected future through AI and IoT innovations.
         </div>
         <div className='project_header hidden'>
           WHO WE ARE
