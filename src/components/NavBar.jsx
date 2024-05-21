@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 export default function NavBar() {
   const Options = {
     software: {
-      name: "SOFTWARE",
+      name: "TESTBED PLATFORM",
       page: "/software"
     },
 

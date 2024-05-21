@@ -40,7 +40,25 @@ body, html {
   margin-top: 1vh;
   border-radius: 5%; 
   justify-content: space-around;
-} 
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .profile_image {
+    height: 20vh;
+    width: calc((20vh * 1200) / 1680);
+    border-width: 3px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .profile_image {
+    height: 15vh;
+    width: calc((15vh * 1200) / 1680);
+    border-width: 2px;
+  }
+}
 
 .information {
   height: min-content;
