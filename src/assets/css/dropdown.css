@@ -65,15 +65,15 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .current-option {
-    font-size: 5vw; 
+    font-size: 2vw; 
   }
 
   .dropdown {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .dropdown .options {
     font-size: 4vw; 
-    width: 5vw;
+    width: 25vw;
   }
 }
