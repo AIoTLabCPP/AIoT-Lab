@@ -19,15 +19,27 @@ export default function NavBar() {
 
   return (
     <div className="navBar">
-      <div className="pages items">
-        <Link to="/">HOME</Link>
-      </div>
-      <div className="pages items">
-        <Link to="/team">TEAM</Link>
-      </div>
-      <Dropdown options={Options} />
-      <div className="pages items">
-        <Link to="/news">NEWS</Link>
+      <div className="pages">
+        <div className="item_wrapper">
+          <div className="items">
+            <Link to="/">HOME</Link>
+          </div>
+        </div>
+        <div className="item_wrapper">
+          <div className="items">
+            <Link to="/team">TEAM</Link>
+          </div>
+        </div>
+        <div className="item_wrapper">
+          <div className="items">
+           <Dropdown options={Options} />
+          </div>
+        </div>
+        <div className="item_wrapper">
+          <div className="items">
+            <Link to="/news">NEWS</Link>
+          </div>
+        </div>
       </div>
     </div>
   );
