@@ -34,13 +34,13 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .items {
-    font-size: 3vw; /* Adjust font size for smaller screens */
+    font-size: 5vw; /* Adjust font size for smaller screens */
   }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
   .items {
-    font-size: 2vw; /* Adjust font size for even smaller screens */
+    font-size: 4vw; /* Adjust font size for even smaller screens */
   }
 }
