@@ -1,10 +1,13 @@
-export const publicationsFile = [
+export const books = [
   {
     publication: "Jie Wu and Yunsheng Wang (Eds.). “Opportunistic Mobile Social Networks”, CRC Press, 1st Edition. ISBN: 978-1466594944, 541 pages. August 5, 2014."
   },
   {
     publication: "Yunsheng Wang and Jie Wu. “Multicast in Opportunistic Networks”, in Opportunistic Mobile Social Networks, J. Wu and Y. Wang (Eds.), CRC Press. 2014."
-  },
+  }
+];
+
+export const conferencePapers = [
   {
     publication: " Mohammad Hasan Amin, Haswanth Babu Konjeti, Jungme Park, and Yunsheng Wang, “An Enhanced Obstacle Detection in ADAS Applications by Integrating C-V2X\
     with a Stereo Camera Vision System”. In the SAE International’s World Congress Experience 2024 (WCX 2024), Detroit, MI, April 16-18, 2024"
@@ -105,7 +108,10 @@ export const publicationsFile = [
   {
     publication: "Chi-Kin Chau, Muhammad Husni Wahab, Fei Qin, Yunsheng Wang, and Yang Yang. “Battery Recovery Aware Sensor Networks”, In IEEE 7th Intl. Symposium on\
     Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt), Seoul, June 2009."
-  },
+  }
+];
+
+export const journalPapers = [
   {
     publication: "Yucong Xiao, Daobing Zhang, Yunsheng Wang, Xuewu Dai, Zhibei Huang, Wuxiong Zhang, Yang Yang, Ashiq Anjum, and Fei Qin, “NAIR: An Efficient\
     Distributed Deep Learning Architecture for Resource Constrained IoT System”, Accepted to be appeared in The IEEE Internet of Things Journal, 2024."
@@ -143,4 +149,6 @@ export const publicationsFile = [
     (2011), 384-392, Aug. 2011."
   }
 ];
+
+
   
