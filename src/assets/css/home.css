@@ -73,6 +73,10 @@
 }
 
 @media (max-width: 768px) {
+  .main_title {
+    font-size: 10vh;
+  }
+
   .main_subtext {
     font-size: 3vh; 
     top: 75vh; 
