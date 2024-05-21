@@ -316,9 +316,9 @@ export default function Team() {
             paddingLeft: '25.3vw',
             paddingRight: '25.8vw',
           }}>
-            <a href="" className="information"> 
-              <strong>Edgar Santiago</strong> 
-            </a>
+            <div className="information"> 
+              <u><strong>Edgar Santiago</strong> </u>
+            </div>
 
             <a href="https://www.linkedin.com/in/ket-hollingsworth/" className="information" style={{
               margin: 'auto',
