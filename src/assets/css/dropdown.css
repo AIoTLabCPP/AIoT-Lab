@@ -1,34 +1,33 @@
 .dropdown {
     position: relative;
-    padding-left: 1.1vw;
+    padding-left: 1.5vw;
     padding-bottom: 0.5vh;
-}
-
-.current-option {
-    padding: 0.5rem 1rem;
+  }
+  
+  .current-option {
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
     color: inherit;
-}
-
-.current-option .arrow {
+  }
+  
+  .current-option .arrow {
     width: 0;
     height: 0;
     margin-left: 0.4vw;
     border-left: 0.45rem solid transparent;
     border-right: 0.45rem solid transparent;
     border-top: 0.45rem solid white;
-}
-
-.current-option .arrow.active {
+  }
+  
+  .current-option .arrow.active {
     border-top: initial;
     border-bottom: 0.45rem solid white;
-}
-
-.dropdown .options {
+  }
+  
+  .dropdown .options {
     position: absolute;
     top: 110%;
     display: flex;
@@ -46,22 +45,35 @@
     transition: all 0.2s ease-in-out;
     z-index: 50;
     overflow-x: hidden;
-}
-
-.dropdown .options.active {
+  }
+  
+  .dropdown .options.active {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
-}
-
-.dropdown .options .option { 
+  }
+  
+  .dropdown .options .option {
     width: 100%;
     padding: 0.5rem 0.8rem;
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-
-.dropdown .options .option:hover {
+    font-size: 1rem; /* Adjust the font size */
+  }
+  
+  .dropdown .options .option:hover {
     background-color: rgba(0, 0, 0, 0.1);
-}
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .current-option {
+      font-size: 3vw; /* Adjust font size for smaller screens */
+    }
+  
+    .dropdown .options .option {
+      font-size: 2vw; /* Adjust font size for smaller screens */
+    }
+  }
+  
