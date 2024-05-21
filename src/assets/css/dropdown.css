@@ -68,8 +68,11 @@
     font-size: 5vw; 
   }
 
+  .dropdown {
+    font-size: 3vw;
+  }
+
   .dropdown .options .option {
     font-size: 4vw; 
-    width: 5vw;
   }
 }
