@@ -115,8 +115,8 @@
 }
 
 .sponsors {
-  width: auto;
-  height: 50vh;
+  width: 100%;
+  height: min-content;
   background-color: #151E16;
   text-align: center;
   color: #E9F6F8;
