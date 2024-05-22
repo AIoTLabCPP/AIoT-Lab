@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .image {
@@ -157,7 +158,7 @@
   }
 
   .sponsors {
-    font-size: 7vw;
+    font-size: 7vh;
   } 
 
   /* .project_header {
