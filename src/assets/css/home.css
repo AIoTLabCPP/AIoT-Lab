@@ -171,7 +171,7 @@
   }
 
   .sponsors {
-    width: 100%;
+    width: 100vw;
     font: 7vh;
     justify-content: space-evenly;
   } 
