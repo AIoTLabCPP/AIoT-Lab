@@ -105,7 +105,7 @@
 }
 
 .slideshow {
-  width: 100%;
+  width: auto;
   height: 85vh;
   background-color: #64624D;
   flex-direction: row;
@@ -157,7 +157,7 @@
   }
 
   .project_description {
-    padding-left: 2%;
+    padding-left: 4%;
     width: 100%;
   }
 
@@ -168,8 +168,7 @@
   .slideshow {
     width: 100%;
     height: min-content;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding: 20%;
   }
 }
 
