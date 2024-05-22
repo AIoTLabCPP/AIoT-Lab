@@ -151,6 +151,8 @@
 
   .project_description {
     width: 100vw;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0;
   }
 
