@@ -167,12 +167,11 @@
 
   .slideshow {
     width: 100%;
-    height: min-content;
-    padding-left: 5%;
-    padding-right: 5%;
+    height: 30vh;
+    padding-left: 8%;
+    padding-right: 8%;
     padding-top: 10%;
     padding-bottom: 10%;
-
   }
 }
 
