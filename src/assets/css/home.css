@@ -81,17 +81,27 @@
 }
 
 @media (max-width: 768px) {
-  .main_content {
-    padding-left: 20%;
-  }
-
   .main_title {
     font-size: 10vh;
+    padding-left: 20%;
   }
 
   .main_subtext {
     font-size: 3vh; 
+    padding-left: 24%;
     padding-right: 4%;
+  }
+
+  .project_header {
+    padding-left: 20%;
+  }
+
+  .project_description {
+    padding-left: 20%;
+  }
+
+  .image {
+    padding-left: 20%;
   }
 }
 
