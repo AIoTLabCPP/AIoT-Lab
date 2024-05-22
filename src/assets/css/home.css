@@ -81,18 +81,17 @@
 }
 
 @media (max-width: 768px) {
+  .main_content {
+    padding-left: 20%;
+  }
+
   .main_title {
     font-size: 10vh;
   }
 
   .main_subtext {
     font-size: 3vh; 
-    padding-left: 4%;
     padding-right: 4%;
-  }
-
-  .image {
-    padding-left: 20%;
   }
 }
 
