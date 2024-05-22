@@ -83,7 +83,7 @@
 @media (max-width: 768px) {
   .main_title {
     font-size: 10vh;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: auto;
     justify-content: center;
   }
@@ -96,7 +96,7 @@
   }
 
   .project_header {
-    padding-left: 2%;
+    padding-left: 8%;
   }
 
   .project_description {
