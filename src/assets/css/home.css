@@ -96,7 +96,7 @@
   }
 
   .project_header {
-    padding-left: 8%;
+    padding-left: 10%;
   }
 
   .project_description {
@@ -105,6 +105,10 @@
 
   .image {
     padding-left: 20%;
+  }
+
+  .slideshow {
+    width: 100vw;
   }
 }
 
