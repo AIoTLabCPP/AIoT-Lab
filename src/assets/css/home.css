@@ -139,16 +139,11 @@
 @media (max-width: 768px) {
   .main_title {
     font-size: 10vh;
-    padding-left: 10%;
-    padding-right: auto;
     justify-content: center;
   }
 
   .main_subtext {
     font-size: 3vh; 
-    padding-left: 10%;
-    padding-left: auto;
-    padding-right: auto;
     justify-content: center;
   }
 
@@ -164,7 +159,7 @@
 
   .image {
     padding-left: 20%;
-  }
+  } */
 
   .slideshow {
     width: 100%;
@@ -179,7 +174,7 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-  } */
+  } 
 }
 
 @media(prefers-reduced-motion) {
