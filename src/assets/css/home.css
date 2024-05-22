@@ -143,7 +143,8 @@
   }
 
   .main_subtext {
-    font-size: 3vh; 
+    font-size: 2.5vh; 
+    top: 60vh;
     justify-content: center;
   }
 
@@ -164,16 +165,14 @@
   .slideshow {
     width: 100%;
     height: 30vh;
-    padding-left: 8.6%;
-    padding-right: 8.6%;
+    justify-content: space-evenly;
     padding-top: 10%;
     padding-bottom: 10%;
   }
 
   .sponsors {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: space-evenly;
   } 
 }
 
