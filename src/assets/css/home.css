@@ -90,6 +90,7 @@
 
   .main_subtext {
     font-size: 3vh; 
+    padding-left: 5%;
     padding-left: auto;
     padding-right: auto;
     justify-content: center;
@@ -101,6 +102,7 @@
 
   .project_description {
     padding-left: 2%;
+    width: 100vw;
   }
 
   .image {
@@ -109,6 +111,7 @@
 
   .slideshow {
     width: 100vw;
+    padding-left: 20%;
   }
 }
 
