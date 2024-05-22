@@ -172,10 +172,9 @@
 
   .sponsors {
     width: 100vw;
-    padding-right: 2%;
-    padding-left: 2%;
-    font: 7vh;
-    justify-content: space-evenly;
+    padding-right: 10%;
+    padding-left: 10%;
+    font: 3vh;
   } 
 }
 
