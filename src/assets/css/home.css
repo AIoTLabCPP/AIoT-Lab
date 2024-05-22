@@ -83,11 +83,15 @@
 @media (max-width: 768px) {
   .main_title {
     font-size: 10vh;
+    padding-left: auto;
+    padding-right: auto;
     justify-content: center;
   }
 
   .main_subtext {
     font-size: 3vh; 
+    padding-left: auto;
+    padding-right: auto;
     justify-content: center;
   }
 
