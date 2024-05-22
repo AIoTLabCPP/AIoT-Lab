@@ -151,6 +151,7 @@
 
   .project_description {
     font-size: 2vh;
+    padding-left: 1%;
     width: 100vw;
     margin: 0;
   }
