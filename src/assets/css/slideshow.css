@@ -26,6 +26,10 @@
 }
 
 @media (max-width: 768px) {
+  .image_slideshow {
+    max-height: 20vh;
+  }
+
   .button {
     height: 10vh;
   }

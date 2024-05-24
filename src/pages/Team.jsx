@@ -4,6 +4,9 @@ import "../assets/css/team.css"
 import * as profileImages from "../assets/data/profiles";
 
 export default function Team() {
+  const leftPadding = '0';
+  const rightPadding = '0';
+
   return (
     <div className="team">
       <NavBar/>
@@ -43,6 +46,7 @@ export default function Team() {
 
         <div className='subtitle'> 
           Graduate Students
+            
           <div className="profile_container" style={{
               paddingLeft: '30vw',
               paddingRight: '30vw'
