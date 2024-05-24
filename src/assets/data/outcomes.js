@@ -5,7 +5,7 @@ import agile_car from "../images/agile_car.jpg"
 
 export const outcomesFile = [
   { 
-    teamName: "AGILE CAR OUTCOMES", outcomes: [
+    teamName: "AGILE CAR", outcomes: [
       {
         img: agile_car, 
         title: "Optical Navigation", 
@@ -17,7 +17,7 @@ export const outcomesFile = [
   },
 
   { 
-    teamName: "DONKEY CAR OUTCOMES", outcomes: [
+    teamName: "DONKEY CAR", outcomes: [
       {
         img: donkey_car_lane_detection, 
         title:"Lane Detection", 
@@ -29,7 +29,7 @@ export const outcomesFile = [
   },
 
   { 
-    teamName: "QCAR OUTCOMES", outcomes: [
+    teamName: "QCAR", outcomes: [
       {
         img: object_detection, 
         title:"Object Detection", 

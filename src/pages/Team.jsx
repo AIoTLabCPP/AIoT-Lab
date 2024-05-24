@@ -28,7 +28,7 @@ export default function Team() {
           paddingTop: '10px',
           paddingBottom: '3vh'
         }}>
-          Professor Yunsheng Wang
+          <strong>Professor Yunsheng Wang</strong>
         </a>
       </div>
 
@@ -41,7 +41,7 @@ export default function Team() {
         </div>
 
         <div className='team_description'>
-          Agile car description
+          To build out a robust autonomy stack for the Scout Mini platform, towards service robot applications.
         </div>
 
         <div className='subtitle'> 

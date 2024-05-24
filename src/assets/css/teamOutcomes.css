@@ -18,8 +18,14 @@
 }
 
 .info_box {
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 3vh;
+  }
 }
 /* #CFE3F2 */
