@@ -105,10 +105,12 @@ export default function home() {
         <div className='slideshow'>
           <Slideshow images={images} />
         </div>
-        <div className='sponsors'>
-          SPONSORS
-          <div className='images'>
-            <img src={nsflogo} alt="NSF logo" style={{ width: '30vh', height: 'auto' }} />
+        <div className='sponsor_wrapper'>
+          <div className='sponsors_title'>
+            SPONSORS
+          </div>
+          <div className='sponsor_img_wrapper'>
+            <img className='sponsor_img' src={nsflogo} alt="NSF logo" />
           </div>
         </div>
       </div>

@@ -115,10 +115,28 @@
   justify-content: center;
 }
 
-.sponsors {
+.sponsor_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #151E16;
+}
+
+.sponsor_img_wrapper {
+  display: flex;
   width: 100%;
   height: min-content;
-  background-color: #151E16;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sponsor_img {
+  width: 30vh;
+  height: auto;
+}
+
+.sponsors_title {
+  width: 100%;
+  height: min-content;
   text-align: center;
   color: #E9F6F8;
   font-weight: 200;
@@ -165,9 +183,15 @@
     padding-bottom: 5vh;
   }
 
-  .sponsors {
-    font-size: 7vh;
+
+  .sponsors_title {
+    font-size: 6vh;
   } 
+
+  .sponsor_img {
+    width: 10vh;
+    height: auto;
+  }
 }
 
 @media(prefers-reduced-motion) {

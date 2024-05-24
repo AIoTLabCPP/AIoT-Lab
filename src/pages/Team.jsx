@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import NavBar from "../components/NavBar"
 import "../assets/css/team.css"
 import * as profileImages from "../assets/data/profiles";
 
 export default function Team() {
-  const leftPadding = '0';
-  const rightPadding = '0';
+  const [windowWidth] = useState(window.innerWidth);
+  const isSmallScreen = windowWidth <= 768 ? true : false;
 
   return (
     <div className="team">
@@ -48,8 +48,8 @@ export default function Team() {
           Graduate Students
             
           <div className="profile_container" style={{
-              paddingLeft: '30vw',
-              paddingRight: '30vw'
+              paddingLeft: isSmallScreen? '20vw' : '30vw',
+              paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
             <div className='profile_image' style={{ 
               backgroundImage: `url(${profileImages.peabody_jack})`, 
@@ -63,16 +63,16 @@ export default function Team() {
 
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: '29.5vw',
-            paddingRight: '31vw',
+            paddingLeft: isSmallScreen ? '18.5vw' : '30vw',
+            paddingRight: isSmallScreen ? '22vw' : '31vw',
           }}>
             <a href="https://www.linkedin.com/in/jack-peabody/" className="information"> <strong>Jack Peabody</strong> </a>
             <a href="https://www.linkedin.com/in/pau-sian-khai-5419858b/" className="information"> <strong>Pau Khai</strong> </a>
           </div>
           
           <div className="profile_container"style={{
-            paddingLeft: '30vw',
-            paddingRight: '30vw',
+            paddingLeft: isSmallScreen? '20vw' :'30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw',
           }}>
             <div className="information">Team Lead</div>
 
@@ -83,8 +83,8 @@ export default function Team() {
           <div className="subtitle">
             Undergraduate Students
             <div className="profile_container" style={{
-              paddingLeft: '10vw',
-              paddingRight: '10vw'
+              paddingLeft: isSmallScreen? '3vw' : '10vw',
+              paddingRight: isSmallScreen? '3vw' : '10vw'
             }}>
             <div className='profile_image' style={{ 
                 backgroundImage: `url(${profileImages.estrada_joshua})`, 
@@ -106,8 +106,8 @@ export default function Team() {
 
             <div className="profile_container"style={{
               paddingTop: '10px',
-              paddingLeft: '15.25vw',
-              paddingRight: '17.15vw',
+              paddingLeft: isSmallScreen? '4vw' : '15.25vw',
+              paddingRight: isSmallScreen? '8.5vw' : '17.25vw',
             }}>
               <a href="https://www.linkedin.com/in/joshua-estrada22/" className="information"> 
                 <strong>Joshua Estrada</strong> 
@@ -115,14 +115,14 @@ export default function Team() {
 
               <a href="https://www.linkedin.com/in/justchung/" className="information" style={{
                 margin: 'auto',
-                paddingLeft: '5.75vw'
+                paddingLeft: isSmallScreen? '2vw' : '5.75vw'
               }}> 
                 <strong>Justin Chung</strong> 
               </a>
 
               <a href="https://www.linkedin.com/in/sarkisgafafyan/" className="information" style={{
                 margin: 'auto',
-                paddingRight: '7vw'
+                paddingRight: isSmallScreen? '4.5vw' : '7vw'
               }}> 
                 <strong>Sarkis Gafafyan</strong> 
               </a>
@@ -134,8 +134,8 @@ export default function Team() {
             </div>
 
             <div className="profile_container"style={{
-              paddingLeft: '10vw',
-              paddingRight: '9.25vw',
+              paddingLeft: isSmallScreen? '4vw' : '10vw',
+              paddingRight: isSmallScreen? '2vw' : '9.25vw',
               paddingBottom: '3vh'
             }}>
             <div className="information">Control</div>
@@ -168,8 +168,8 @@ export default function Team() {
         <div className='subtitle'> 
           Undergraduate Students
           <div className="profile_container" style={{
-              paddingLeft: '30vw',
-              paddingRight: '30vw'
+              paddingLeft: isSmallScreen? '20vw' : '30vw',
+              paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
             <div className='profile_image' style={{ 
               backgroundImage: `url(${profileImages.sanna_alex})`, 
@@ -183,8 +183,8 @@ export default function Team() {
 
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: '30vw',
-            paddingRight: '30vw',
+            paddingLeft: isSmallScreen? '19.5vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw',
           }}>
             <a href="https://www.linkedin.com/in/alex-sanna-428804215/" className="information"> <strong>Alex Sanna</strong> </a>
 
@@ -193,8 +193,8 @@ export default function Team() {
           </div>
 
           <div className="profile_container"style={{
-            paddingLeft: '30vw',
-            paddingRight: '30vw',
+            paddingLeft: isSmallScreen? '19.5vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw',
             paddingBottom: '3vh'
           }}>
             <div className="information">Team Lead</div>
@@ -204,8 +204,8 @@ export default function Team() {
           </div>
 
           <div className="profile_container" style={{
-            paddingLeft: '20vw',
-            paddingRight: '20vw'
+            paddingLeft: isSmallScreen? '10vw' : '20vw',
+            paddingRight: isSmallScreen? '10vw' : '20vw'
           }}>
           <div className='profile_image' style={{ 
               backgroundImage: `url(${profileImages.sheth_darshil})`, 
@@ -223,8 +223,8 @@ export default function Team() {
 
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: '25.85vw',
-            paddingRight: '24.5vw',
+            paddingLeft: isSmallScreen? '14vw' : '25.85vw',
+            paddingRight: isSmallScreen? '11vw' : '24.5vw',
             paddingBottom: '3vh'
           }}>
             <a href="https://www.linkedin.com/in/darshilsheth/" className="information"> 
@@ -233,7 +233,7 @@ export default function Team() {
 
             <a href="https://www.linkedin.com/in/nicholas-hoang-7b1644235/" className="information" style={{
               margin: 'auto',
-              paddingLeft: '1.75vw'
+              paddingLeft: '3.5vw'
             }}> 
               <strong>Nicholas Hoang</strong> 
             </a>
@@ -262,8 +262,8 @@ export default function Team() {
         <div className='subtitle'> 
           Graduate Students
           <div className="profile_container" style={{
-            paddingLeft: '30vw',
-            paddingRight: '30vw'
+            paddingLeft: isSmallScreen? '20vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
             <div className='profile_image' style={{ 
               backgroundImage: `url(${profileImages.viswhakarama_abhishek})`, 
@@ -276,8 +276,8 @@ export default function Team() {
           </div>
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: '28vw',
-            paddingRight: '31.5vw'
+            paddingLeft: isSmallScreen? '16.5vw' : '28vw',
+            paddingRight: isSmallScreen? '24vw' : '31.5vw'
           }}>
             <a href="https://www.linkedin.com/in/karma218/" className="information"> <strong>Abhishek Vishwakarma</strong> </a>
 
@@ -286,8 +286,8 @@ export default function Team() {
           </div>
           
           <div className="profile_container"style={{
-            paddingLeft: '30.25vw',
-            paddingRight: '30vw'
+            paddingLeft: isSmallScreen? '21.5vw' : '30.25vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
             <div className="information">Lane Detection</div>
 
@@ -298,8 +298,8 @@ export default function Team() {
         <div className="subtitle">
           Undergraduate Students
           <div className="profile_container" style={{
-            paddingLeft: '20vw',
-            paddingRight: '20vw'
+            paddingLeft: isSmallScreen? '10vw' : '20vw',
+            paddingRight: isSmallScreen? '10vw' :  '20vw'
           }}>
             <div className='profile_image' style={{ 
               backgroundImage: `url(${profileImages.no_avatar})`, 
@@ -317,8 +317,8 @@ export default function Team() {
 
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: '25.3vw',
-            paddingRight: '25.8vw',
+            paddingLeft: isSmallScreen? '13vw' : '25.3vw',
+            paddingRight: isSmallScreen? '14vw' : '25.8vw',
           }}>
             <div className="information"> 
               <u><strong>Edgar Santiago</strong> </u>
@@ -326,7 +326,7 @@ export default function Team() {
 
             <a href="https://www.linkedin.com/in/ket-hollingsworth/" className="information" style={{
               margin: 'auto',
-              paddingRight: '0.25vw'
+              paddingRight: isSmallScreen? '2vw' : '0.5vw'
             }}> 
               <strong>Ket Hollingsworth</strong> 
             </a>
@@ -338,8 +338,8 @@ export default function Team() {
           </div>
 
           <div className="profile_container"style={{
-            paddingLeft: '39.25vw',
-            paddingRight: '20.2vw',
+            paddingLeft: isSmallScreen? '35vw' : '39.25vw',
+            paddingRight: isSmallScreen? '10.5vw' : '20.2vw',
             paddingBottom: '3vh'
           }}>
             <div className="information">CARLA Simulation</div>
