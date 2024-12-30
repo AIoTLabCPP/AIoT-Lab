@@ -19,28 +19,10 @@ export default function NavBar() {
 
   return (
     <div className="navBar">
-      <div className="pages">
-        <div className="item_wrapper">
-          <div className="items">
-            <Link to="/">HOME</Link>
-          </div>
-        </div>
-        <div className="item_wrapper">
-          <div className="items">
-            <Link to="/team">TEAM</Link>
-          </div>
-        </div>
-        <div className="item_wrapper">
-          <div className="items">
-           <Dropdown options={Options} />
-          </div>
-        </div>
-        <div className="item_wrapper">
-          <div className="items">
-            <Link to="/news">NEWS</Link>
-          </div>
-        </div>
-      </div>
+      <Link style={{ textDecoration: 'none' }} className="items" to="/">HOME</Link>
+      <Link style={{ textDecoration: 'none' }} className="items" to="/team">TEAM</Link>
+      <Dropdown className="items" options={Options} />
+      <Link style={{ textDecoration: 'none' }} className="items" to="/news">NEWS</Link>
     </div>
   );
 }
