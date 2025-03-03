@@ -24,7 +24,7 @@ body, html {
 .profiles {
     height: 27.8vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     width: calc((27.8vh * 1200) / 1680); 
     padding: 0;

@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import "../assets/css/alumni.css"
+import * as profileImages from "../assets/data/profiles";
  
 export default function Alumni() { 
 
@@ -9,7 +10,9 @@ export default function Alumni() {
       <NavBar/>
       <div className="container">
           <div className="card">
-            <img src="src\assets\images\profiles\brandon_headshot.jpg" className="profiles" />
+            <div className="profiles" style={{
+              backgroundImage: `url(${profileImages.brandon_chao})`
+            }}></div>
             <a href="https://www.linkedin.com/in/chaobrandon/" className="information_text">
               <strong>Brandon Chao</strong>
             </a>
@@ -19,7 +22,9 @@ export default function Alumni() {
           </div>
 
           <div className="card">
-            <img src="src\assets\images\profiles\lee_calvin.jpg" className="profiles" />
+          <div className="profiles" style={{
+              backgroundImage: `url(${profileImages.calvin_lee})`
+            }}></div>
             <a href="https://www.linkedin.com/in/chunchenglee326/" className="information_text">
               <strong>Calvin Lee</strong>
             </a>
@@ -29,7 +34,9 @@ export default function Alumni() {
           </div>
 
           <div className="card">
-            <img src="src\assets\images\profiles\peabody_jack.jpg" className="profiles" />
+          <div className="profiles" style={{
+              backgroundImage: `url(${profileImages.peabody_jack})`
+            }}></div>
             <a href="https://www.linkedin.com/in/jack-peabody/" className="information_text">
               <strong>Jack Peabody</strong>
             </a>
@@ -39,7 +46,9 @@ export default function Alumni() {
           </div>
 
           <div className="card">
-            <img src="src\assets\images\profiles\trinh_phong.png" className="profiles" />
+            <div className="profiles" style={{
+              backgroundImage: `url(${profileImages.trinh_phong})`
+            }}></div>
             <a href="https://www.linkedin.com/in/phong-d-trinh/" className="information_text">
               <strong>Phong Trinh</strong>
             </a>
@@ -49,7 +58,9 @@ export default function Alumni() {
           </div>
 
           <div className="card">
-            <img src="src\assets\images\profiles\hu_huijun.jpg" className="profiles" />
+            <div className="profiles" style={{
+              backgroundImage: `url(${profileImages.hu_huijun})`
+            }}></div>
             <a href="https://www.linkedin.com/in/huijun-hu-28045716a/" className="information_text">
               <strong>Tracy Hu</strong>
             </a>

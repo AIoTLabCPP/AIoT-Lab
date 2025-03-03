@@ -16,6 +16,7 @@ import wang_nathan from "../images/profiles/wang_nathan.jpg"
 import gafafyan_sarkis from "../images/profiles/gafafyan_sarkis.jpg"
 import no_avatar from "../images/no_avatar.jpg"
 import brandon_chao from "../images/profiles/brandon_headshot.jpg"
+import calvin_lee from "../images/profiles/lee_calvin.jpg"
 
 export {
     wang_yunsheng,
@@ -35,5 +36,6 @@ export {
     wang_nathan,
     gafafyan_sarkis,
     no_avatar,
-    brandon_chao
+    brandon_chao,
+    calvin_lee
 };
