@@ -260,28 +260,31 @@ export default function Team() {
         </div>
 
         <div className='subtitle'> 
-          Graduate Students
+          Undergraduate Students
           <div className="profile_container" style={{
             paddingLeft: isSmallScreen? '20vw' : '30vw',
             paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${profileImages.viswhakarama_abhishek})`, 
+              backgroundImage: `url(${profileImages.sanna_alex})`, 
+              backgroundSize: 'cover', 
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${profileImages.trinh_phong})`, 
+              backgroundImage: `url(${profileImages.cursaro_sebastian})`,
+              backgroundSize: 'cover', 
             }}> </div>
 
           </div>
           <div className="profile_container"style={{
             paddingTop: '10px',
-            paddingLeft: isSmallScreen? '16.5vw' : '28vw',
-            paddingRight: isSmallScreen? '24vw' : '31.5vw'
+            paddingLeft: isSmallScreen? '16.5vw' : '32vw',
+            paddingRight: isSmallScreen? '24vw' : '31.5vw',
+            whiteSpace: 'pre'
           }}>
-            <a href="https://www.linkedin.com/in/karma218/" className="information"> <strong>Abhishek Vishwakarma</strong> </a>
+            <a href="https://www.linkedin.com/in/alexander-sanna-428804215/" className="information"> <strong>Alex Sanna</strong> </a>
 
-            <a href="https://www.linkedin.com/in/phong-d-trinh/" className="information"> <strong>Phong Trinh</strong> </a>
+            <a href="https://www.linkedin.com/in/sebastian-cursaro-483425268/" className="information"> <strong>Sebastian Cursaro</strong> </a>
 
           </div>
           
@@ -289,28 +292,30 @@ export default function Team() {
             paddingLeft: isSmallScreen? '21.5vw' : '30.25vw',
             paddingRight: isSmallScreen? '20vw' : '30vw'
           }}>
-            <div className="information">Lane Detection</div>
+            <div className="information">Team Lead</div>
 
-            <div className="information">Object Detection</div>
+            <div className="information">Team Lead</div>
 
           </div>
         </div>
         <div className="subtitle">
-          Undergraduate Students
           <div className="profile_container" style={{
             paddingLeft: isSmallScreen? '10vw' : '20vw',
             paddingRight: isSmallScreen? '10vw' :  '20vw'
           }}>
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${profileImages.no_avatar})`, 
+              backgroundImage: `url(${profileImages.matt})`,
+              backgroundSize: 'cover'
             }}> </div>
   
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${profileImages.hollingsworth_ket})`, 
+              backgroundImage: `url(${profileImages.reyna})`,
+              backgroundSize: 'cover',
             }}> </div>
 
             <div className='profile_image' style={{ 
-              backgroundImage: `url(${profileImages.wang_nathan})`, 
+              backgroundImage: `url(${profileImages.wang_nathan})`,
+              backgroundSize: 'cover', 
             }}> </div>  
             
           </div>
@@ -320,31 +325,129 @@ export default function Team() {
             paddingLeft: isSmallScreen? '13vw' : '25.3vw',
             paddingRight: isSmallScreen? '14vw' : '25.8vw',
           }}>
-            <div className="information"> 
-              <u><strong>Edgar Santiago</strong> </u>
-            </div>
-
-            <a href="https://www.linkedin.com/in/ket-hollingsworth/" className="information" style={{
+            <a href="https://www.linkedin.com/in/matthew-baldivino123/" className="information" style={{
               margin: 'auto',
-              paddingRight: isSmallScreen? '2vw' : '0.5vw'
+              paddingRight: isSmallScreen? '6vw' : '6vw'
+            }}>
+              <strong>Matthew Baldivino</strong>
+            </a>
+
+            <a href="https://www.linkedin.com/in/reynavnava/" className="information" style={{
+              margin: 'auto',
+              paddingRight: isSmallScreen? '2vw' : '12vw'
             }}> 
-              <strong>Ket Hollingsworth</strong> 
+              <strong>Reyna Nava</strong> 
             </a>
 
             <a href="https://www.linkedin.com/in/nathan-wang-2a3698292/" className="information"> 
               <strong>Nathan Wang</strong> 
             </a>
+          </div>
+
+          <div className="profile_container" style={{
+            paddingLeft: isSmallScreen ? '20vw' : '25vw', // Adjusted paddingLeft
+            paddingRight: isSmallScreen ? '19.5vw' : '24vw', // Adjusted paddingRight
+            paddingBottom: '3vh'
+          }}>
+            <div className="information">Lane Detection</div>
+
+            <div className="information">Lane Detection</div>
+            
+            <div className="information">Lane Detection</div>
+          </div>
+        </div>
+        <div className='subtitle'> 
+          <div className="profile_container" style={{
+            paddingLeft: isSmallScreen? '20vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw'
+          }}>
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(${profileImages.rich})`, 
+              backgroundSize: 'cover', 
+            }}> </div>
+
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(${profileImages.no_avatar})`,
+              backgroundSize: 'cover', 
+            }}> </div>
+
+          </div>
+          <div className="profile_container"style={{
+            paddingTop: '10px',
+            paddingLeft: isSmallScreen? '16.5vw' : '32vw',
+            paddingRight: isSmallScreen? '24vw' : '31.5vw',
+            whiteSpace: 'pre'
+          }}>
+            <a href="https://www.linkedin.com/in/richwei-chea-342589291/" className="information"> <strong>Richwei Chea</strong> </a>
+
+            <a href="https://www.linkedin.com/in/joseph-bui-a344a6222/?locale=fr_FR&trk=people-guest_people_search-card" className="information"> <strong>Joseph Bui</strong> </a>
+
+          </div>
+          
+          <div className="profile_container"style={{
+            paddingLeft: isSmallScreen? '21.5vw' : '30.25vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw'
+          }}>
+            <div className="information">Team Lead</div>
+
+            <div className="information">Team Lead</div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* EDGE COMPUTING TEAM */}
+      <div className='section' style= {{
+          backgroundColor: '#758C85'
+      }}>   
+        <div className='section_title'>
+          EDGE COMPUTING TEAM
+        </div>
+
+        <div className='team_description'>
+        DonkeyCar interfaces with edge server device Jetson AGX Orin
+         to offload self-driving computations, reducing local CPU and memory usage.
+         The Orin can run different self-driving models to compute the steering and
+         throttle values and sends these to the DonkeyCars
+        </div>
+
+        <div className='subtitle'> 
+          Undergraduate Students
+          <div className="profile_container" style={{
+              paddingLeft: isSmallScreen? '20vw' : '30vw',
+              paddingRight: isSmallScreen? '20vw' : '30vw'
+          }}>
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(${profileImages.rafael})`,
+              backgroundSize: 'cover',
+            }}> </div>
+
+            <div className='profile_image' style={{ 
+              backgroundImage: `url(${profileImages.ly_michael})`,
+              backgroundSize: 'cover',
+            }}> </div>
 
           </div>
 
           <div className="profile_container"style={{
-            paddingLeft: isSmallScreen? '35vw' : '39.25vw',
-            paddingRight: isSmallScreen? '10.5vw' : '20.2vw',
+            paddingTop: '10px',
+            paddingLeft: isSmallScreen? '19.5vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw',
+          }}>
+            <a href="https://www.linkedin.com/in/rafael-trinidad-25a6a71b9/" className="information"> <strong>Rafael Trinidad</strong> </a>
+
+            <a href="https://www.linkedin.com/in/michael-ly-swe/" className="information"> <strong>Michael Ly</strong> </a>
+
+          </div>
+
+          <div className="profile_container"style={{
+            paddingLeft: isSmallScreen? '19.5vw' : '30vw',
+            paddingRight: isSmallScreen? '20vw' : '30vw',
             paddingBottom: '3vh'
           }}>
-            <div className="information">CARLA Simulation</div>
-            
-            <div className="information">Lane Detection</div>
+            <div className="information">Team Lead</div>
+
+            <div className="information">Team Lead</div>
 
           </div>
         </div>
