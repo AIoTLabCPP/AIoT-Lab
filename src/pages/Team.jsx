@@ -458,7 +458,22 @@ export default function Team() {
           height: '100vh',
           backgroundColor: '#737259'
       }}>   
-          
+          <div className='section_title'>
+            ALUMNI
+          </div>
+          <div className="profile_image" style={{ 
+            backgroundImage: `url(${profileImages.brandon_chao})`,
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}> 
+          </div>
+          <a href="https://www.linkedin.com/in/chaobrandon/" className="information" style={{
+            margin: 'auto',
+            paddingTop: '10px',
+            paddingBottom: '3vh'
+          }}>
+            <strong>Brandon Chao</strong>
+          </a>
       </div> */}
     </div>
   )
