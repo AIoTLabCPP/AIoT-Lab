@@ -15,15 +15,12 @@ import hollingsworth_ket from "../images/profiles/hollingsworth_ket.jpg"
 import wang_nathan from "../images/profiles/wang_nathan.jpg"
 import gafafyan_sarkis from "../images/profiles/gafafyan_sarkis.jpg"
 import no_avatar from "../images/no_avatar.jpg"
-<<<<<<< HEAD
 import rafael from "../images/profiles/rafael.jpeg"
 import matt from "../images/profiles/matt.jpg"
 import reyna from "../images/profiles/reyna.jpg"
 import rich from "../images/profiles/rich.jpg"
-=======
 import brandon_chao from "../images/profiles/brandon_headshot.jpg"
 import calvin_lee from "../images/profiles/lee_calvin.jpg"
->>>>>>> db43e46877d57f6a721e9acea3c5e7770def9c15
 
 export {
     wang_yunsheng,
@@ -43,13 +40,10 @@ export {
     wang_nathan,
     gafafyan_sarkis,
     no_avatar,
-<<<<<<< HEAD
     rafael,
     matt,
     reyna,
-    rich
-=======
+    rich,
     brandon_chao,
     calvin_lee
->>>>>>> db43e46877d57f6a721e9acea3c5e7770def9c15
 };
