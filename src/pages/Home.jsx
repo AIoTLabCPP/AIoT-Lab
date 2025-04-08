@@ -75,8 +75,7 @@ export default function home() {
             This project focuses on advanced sensor integration, real-time data processing, and machine learning algorithms to enable vehicles to navigate and interact with their 
             environment autonomously. <br /></li>
             
-            <li><strong>Edge Computing:</strong> Exploring innovative edge computing solutions to improve the performance and responsiveness of IoT applications. By processing data closer to the 
-            source, this project aims to reduce latency, enhance data security, and optimize resource utilization in smart systems. <br /></li>
+            <li><strong>Edge Computing:</strong> We developed a TCP/UDP link between a DonkeyCar and Jetson AGX Orin edge server device. Video frames are streamed to the Orin device, and the Orin can pass these frames to different self-driving models to compute the steering and throttle values to send back to the DonkeyCar. <br /></li>
             
             <li><strong>Vehicle Cybersecurity:</strong> Investigating robust cybersecurity measures to protect connected vehicles from potential threats and vulnerabilities. This project 
             involves developing advanced encryption methods, intrusion detection systems, and secure communication protocols to ensure the safety and integrity of vehicular 

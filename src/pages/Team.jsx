@@ -405,12 +405,9 @@ export default function Team() {
         </div>
 
         <div className='team_description'>
-        DonkeyCar interfaces with edge server device Jetson AGX Orin
-         to offload self-driving computations, reducing local CPU and memory usage.
-         The Orin can run different self-driving models to compute the steering and
-         throttle values and sends these to the DonkeyCars
+        To develop an edge computing platform where the DonkeyCar offloads computations<br />to an edge server device instead of a cloud server, reducing latency and local CPU and memory usage
         </div>
-
+ 
         <div className='subtitle'> 
           Undergraduate Students
           <div className="profile_container" style={{
